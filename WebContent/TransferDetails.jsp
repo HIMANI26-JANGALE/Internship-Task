@@ -63,7 +63,7 @@ while(resultSet.next()){
 <td><%=resultSet.getString("sender_acc_no") %></td>
 <td><%=resultSet.getString("sender_name") %></td>
 <td><%=resultSet.getString("sender_acc_no") %></td>
-<td><%=resultSet.getString("sender_name") %></td>
+<td><%=resultSet.getString("receiver_name") %></td>
 <td><%=resultSet.getString("amount_transfered") %></td>
 </tr>
 <%
